@@ -7,9 +7,9 @@ const About: React.FC = () => {
       <Header />
       <h1>Hello, this is the About page</h1>
       <div className="flex flex-wrap gap-4">
-        <Button size="w-sm" shape="rounded-sm" />
-        <Button size="w-md" shape="rounded-md" />
-        <Button size="w-lg" shape="rounded-lg" />
+         <Button title="Small Rounded-sm" size="small" shape="rounded-sm" />
+        <Button title="Medium Rounded-md" size="medium" shape="rounded-md" />
+        <Button title="Large Rounded-full" size="large" shape="rounded-full" />
       </div>
     </main>
   );
